@@ -86,9 +86,10 @@ Settled:
 - 1:34:00 "Thomas playing (saying?)": Thomas is on a deck platter, not a microphone.
 - 1:52:40 "dad on the table": Thomas does stand on the booth top.
 - 53:18 "that face": the face on screen is Thomas's.
+- 14:18: the vocal "played by Thomas" is the Renegade Master acapella. The owner confirmed it by
+  ear against the original record (2026-11-20).
 
 Open (the film and notes cannot answer them):
-- 14:18: which vocal is "played by Thomas". Tracklist order suggests Renegade Master.
 - 40:00-41:45: still inferred as Thomas's file; the change is in wide shots.
 - 58:26: whether Fred's microphone moment at 59:11 is the list of teachers.
 - "Femi" in the final block is unidentified.

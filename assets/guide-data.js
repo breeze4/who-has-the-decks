@@ -74,10 +74,10 @@ window.GUIDE = {
     },
     {
       t: 858, kind: 'note', who: 'thomas', evidence: 'stated',
-      title: 'The vocal is Thomas’s',
+      title: 'Thomas plays the Renegade Master vocal',
       tech: ['Acapella'],
-      body: 'Fred singles out an “iconic vocal” at this point and says it was played by Thomas. By tracklist order the vocal here should be the Renegade Master acapella; that mapping is reasoning from the tracklist, the attribution to Thomas is Fred’s. The frames fit: Thomas puts his headphones on and works the middle units while Fred is on the unit at his own end.',
-      why: 'Stated by Fred: “this one, but played by Thomas”. Seen at 14:19–14:26; the frames cannot show which unit plays the vocal.',
+      body: 'Fred singles out an “iconic vocal” at this point and says it was played by Thomas. The vocal is the Renegade Master acapella: heard in the audio at 14:18 and checked by ear against the original Wildchild record. The frames fit: Thomas puts his headphones on and works the middle units while Fred is on the unit at his own end.',
+      why: 'Stated by Fred: “this one, but played by Thomas”. Heard: the Renegade Master vocal at 14:18. Seen at 14:19–14:26; the frames cannot show which unit plays the vocal.',
       quote: 'It was mad hearing these iconicccc vocals, like the my house vocal from the beginning, or this one, but played by Thomas, it gibes them a sorta even deeper resonance.'
     },
     {
