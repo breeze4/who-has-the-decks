@@ -100,6 +100,8 @@ Open (the film and notes cannot answer them):
   Ezra Collective shout-out at 1:50:03. The film never shows the speaker, so it stays reasoning.
   A machine transcript (mlx-whisper, large-v3-turbo) of 1:46-1:53 was used to find the lines.
 - 3:16 and every layered block: one file or several channels. No screen or fader is legible.
+  The 3:16 sound is now described from the audio (owner by ear, bass levels, transcript), but
+  the sound does not settle the question.
 - Whether the "novation" knob unit at Thomas's end is the drum machine. No model is legible.
 
 ## Files

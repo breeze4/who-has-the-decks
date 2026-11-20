@@ -44,8 +44,8 @@ window.GUIDE = {
         ['Marvin Gaye', 'Ain’t No Mountain High Enough']
       ],
       tech: ['Three-way layer'],
-      body: 'One song from each of them plus a Motown vocal, listed by Fred as a single three-way combination. Fred’s opening note ends “knowing that what was about to happen was….”, and his note here finishes the sentence. Thomas brings it in. Fred leaves the decks with a hand-held microphone and goes to the front of the stage.',
-      why: 'Seen: Thomas alone at the controls with headphones on at 3:01, 3:23 and 3:35. Fred holds a microphone from about 3:23 and is at the front of the stage at 3:44–3:54. Whether this is one prepared file or a live layer is not visible: no screen or fader can be read.',
+      body: 'One song from each of them plus a Motown vocal, listed by Fred as a single three-way combination. Fred’s opening note ends “knowing that what was about to happen was….”, and his note here finishes the sentence. Thomas brings it in. Fred leaves the decks with a hand-held microphone and goes to the front of the stage. In the audio, One More Time runs underneath and the “we’ve lost dancing” vocal is laid over it here and there. The beat comes in at about 3:47 and is at full weight by 4:02. From 4:19 the Ain’t No Mountain High Enough verse (“Remember the day I set you free…”) runs over it, with the bass out from 4:34 to 4:48 and fully back at 5:05.',
+      why: 'Seen: Thomas alone at the controls with headphones on at 3:01, 3:23 and 3:35. Fred holds a microphone from about 3:23 and is at the front of the stage at 3:44–3:54. Whether this is one prepared file or a live layer is not visible: no screen or fader can be read, and the sound does not settle it either.',
       quote: '... this ^'
     },
     {
