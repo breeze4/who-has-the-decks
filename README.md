@@ -34,8 +34,8 @@ No build step. Open `index.html` through any static server.
 
 ## Publishing on GitHub Pages
 
-Settings -> Pages -> Build and deployment -> Source: "Deploy from a branch",
-pick the branch that holds these files and the `/ (root)` folder.
+GitHub Pages serves the `main` branch, `/ (root)` folder, at
+https://breeze4.github.io/who-has-the-decks/. A push to `main` updates the site.
 
 ## Controls
 

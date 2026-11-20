@@ -15,8 +15,7 @@ datacenter addresses). So:
 - Timestamps come from a second-hand copy of Fred's notes (`sources/fred-notes.txt`).
 - The page logic passes `tests/smoke.js` against a stand-in player. Real playback of the embed
   has never been confirmed.
-- GitHub Pages was not enabled when this was written. The owner has to do it:
-  Settings → Pages → Deploy from a branch → root. Free plans need a public repo.
+- GitHub Pages is on. It serves the `main` branch, root folder.
 
 This session exists to do the visual and audio pass that draft 1 could not.
 
@@ -89,6 +88,6 @@ No build step. Writing style on the page: plain, short, no superlatives, caveats
 
 ## Git
 
-Work so far is on `claude/practical-archimedes-55wukr`, which is also the repo's default branch
-because the repo started empty. Ask the owner which branch Pages is serving before pushing
-elsewhere. Do not open a pull request unless asked.
+All work goes on `main`, the default branch. GitHub Pages serves `main`, root folder, at
+https://breeze4.github.io/who-has-the-decks/. A push to `main` updates the live site.
+Do not open a pull request unless asked.
