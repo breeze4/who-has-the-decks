@@ -150,6 +150,7 @@ kbd { font: 11px/1 var(--mono); padding: 3px 6px; border: 1px solid var(--line-2
 .chip--who[data-who="thomas"] { background: var(--thomas); }
 .chip--who[data-who="both"] { background: linear-gradient(90deg, var(--fred), var(--thomas)); }
 .chip--who[data-who="unknown"] { color: var(--text); }
+.tag--seen, .chip--ev[data-evidence="seen"] { color: #0b0b0e; background: var(--ok); border-color: transparent; }
 .tag--stated, .chip--ev[data-evidence="stated"] { color: var(--ok); border-color: rgba(143, 227, 168, .4); }
 .tag--inferred, .chip--ev[data-evidence="inferred"] { border-style: dashed; color: var(--text); }
 .tag--none, .chip--ev[data-evidence="none"] { color: var(--dim); }
@@ -235,7 +236,7 @@ dl { margin: 0; }
 .callout { margin-top: 20px; padding: 22px 24px; border-radius: var(--radius); border: 1px solid var(--line-2); background: linear-gradient(135deg, rgba(255, 138, 61, .08), rgba(92, 200, 255, .08)); }
 .callout p { margin-top: 10px; color: #cfcfd9; max-width: 80ch; }
 
-.evidence { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 24px; }
+.evidence { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 24px; }
 .evidence > div { padding: 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); }
 .evidence p { margin-top: 12px; color: var(--muted); font-size: 14px; }
 #sources h3 { margin-top: 36px; }

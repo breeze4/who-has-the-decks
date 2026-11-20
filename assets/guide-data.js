@@ -2,7 +2,8 @@
  * Guide data for "Who has the decks?"
  *
  * who:      'fred' | 'thomas' | 'both' | 'unknown'
- * evidence: 'stated'   - Fred again.. says it in his own timestamped notes
+ * evidence: 'seen'     - observed in frames of the film; `why` gives the frame time(s)
+ *           'stated'   - Fred again.. says it in his own timestamped notes
  *           'inferred' - not said outright; reasoning is given in `why`
  *           'none'     - no source says, and the picture has not been reviewed
  * kind:     'mix'  - a new track / blend starts here (gets a block on the timeline)
@@ -36,8 +37,9 @@ window.GUIDE = {
         ['Marvin Gaye', 'Ain’t No Mountain High Enough']
       ],
       tech: ['Three-way layer'],
-      body: 'One song from each of them plus a Motown vocal, listed by Fred as a single three-way combination. Fred’s opening note implies he knew this was where the intro was heading, which points to a planned sequence rather than an improvised one.',
+      body: 'One song from each of them plus a Motown vocal, listed by Fred as a single three-way combination. Fred’s opening note ends “knowing that what was about to happen was….”, and his note here finishes the sentence. He knew the intro was heading here, which points to a planned sequence rather than an improvised one.',
       why: 'No source says who started which element. It may be one prepared file or a live layer across decks; that can only be settled by watching the decks.',
+      quote: '... this ^',
       watch: 'How many decks get touched between 3:00 and 3:30. One press of play means a prepared file; two people reaching for different decks means a live layer.'
     },
     {

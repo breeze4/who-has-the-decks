@@ -12,7 +12,8 @@ datacenter addresses). So:
 
 - Nothing on the page has been checked against the picture or the sound.
 - 20 of 30 track blocks say "Not known yet". 6 are attributed by Fred's notes, 4 are inferred.
-- Timestamps come from a second-hand copy of Fred's notes (`sources/fred-notes.txt`).
+- `sources/fred-notes.txt` holds Fred's notes first-hand, from his pinned YouTube comment. All
+  times in `guide-data.js` match it (checked 2026-11-20).
 - The page logic passes `tests/smoke.js` against a stand-in player. Real playback of the embed
   has never been confirmed.
 - GitHub Pages is on. It serves the `main` branch, root folder.

@@ -5,7 +5,7 @@
   var M = G.moments;
   var duration = G.duration;
   var WHO = { fred: 'Fred', thomas: 'Thomas', both: 'Both', unknown: 'Not known yet' };
-  var EV = { stated: 'Fred says so', inferred: 'Inferred', none: 'No source' };
+  var EV = { seen: 'Seen in the film', stated: 'Fred says so', inferred: 'Inferred', none: 'No source' };
 
   var $ = function (id) { return document.getElementById(id); };
   var app = $('app'), list = $('moments'), blocks = $('blocks'), pins = $('pins');
@@ -88,10 +88,10 @@
   // ---------- stats ----------
   (function () {
     var mixes = M.filter(function (m) { return m.kind === 'mix'; });
-    var c = { stated: 0, inferred: 0, none: 0 };
+    var c = { seen: 0, stated: 0, inferred: 0, none: 0 };
     mixes.forEach(function (m) { c[m.evidence]++; });
-    $('stats').textContent = 'Of ' + mixes.length + ' track blocks, ' + c.stated + ' are attributed by Fred, ' +
-      c.inferred + ' are inferred and ' + c.none + ' are still unknown.';
+    $('stats').textContent = 'Of ' + mixes.length + ' track blocks, ' + c.seen + ' are seen in the film, ' +
+      c.stated + ' are attributed by Fred, ' + c.inferred + ' are inferred and ' + c.none + ' are still unknown.';
   })();
 
   // ---------- timeline ----------
