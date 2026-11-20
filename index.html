@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who has the decks? Fred again.. b2b Thomas Bangalter, annotated</title>
+<meta name="description" content="A timestamped guide to the Fred again.. and Thomas Bangalter set at Alexandra Palace: what is playing, how it is put together, and who is doing it, with the evidence for each claim.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="top__in">
+    <div>
+      <p class="eyebrow">USB002 · Alexandra Palace, London · 27 February 2026</p>
+      <h1>Who has the decks?</h1>
+      <p class="lede">An annotated guide to the Fred again.. and Thomas Bangalter back-to-back. Step through the set moment by moment: what is playing, how it was put together, and which of them is doing it.</p>
+    </div>
+    <ul class="legend" aria-label="Colour key">
+      <li><span class="dot dot--fred"></span>Fred again..</li>
+      <li><span class="dot dot--thomas"></span>Thomas Bangalter</li>
+      <li><span class="dot dot--both"></span>Both</li>
+      <li><span class="dot dot--unknown"></span>Not known yet</li>
+    </ul>
+  </div>
+  <div class="status" role="note">
+    <strong>Read this first.</strong>
+    Every attribution on this page comes from Fred’s own timestamped notes or from reasoning shown next to it.
+    None of it comes from watching hands on equipment: the film has not been reviewed frame by frame yet.
+    <span id="stats"></span>
+    <a href="#sources">What that means</a>
+  </div>
+</header>
+
+<main class="app" id="app">
+  <section class="stage" aria-label="Video and transport">
+    <div class="player">
+      <div id="yt"></div>
+      <a class="player__fallback" id="fallback" href="https://www.youtube.com/watch?v=gfF8jzBVWvM" target="_blank" rel="noopener" hidden>
+        The embedded player did not load. Open the set on YouTube
+      </a>
+    </div>
+
+    <div class="transport">
+      <button class="btn btn--step" id="prev" type="button" aria-label="Previous moment" title="Previous moment (←)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" /></svg>
+      </button>
+      <button class="btn btn--play" id="play" type="button" aria-label="Play" title="Play / pause (space)">
+        <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.500z" /></svg>
+        <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.500v13M16 5.500v13" /></svg>
+      </button>
+      <button class="btn btn--step" id="next" type="button" aria-label="Next moment" title="Next moment (→)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.500 5.500 16 12l-6.500 6.500" /></svg>
+      </button>
+      <div class="clock"><span id="cur">0:00</span><span class="clock__sep">/</span><span id="dur">1:56:23</span></div>
+      <div class="counter" id="counter" aria-live="off"></div>
+      <label class="follow"><input type="checkbox" id="follow" checked> Follow</label>
+    </div>
+
+    <div class="timeline" id="timeline" role="slider" tabindex="0" aria-label="Set timeline" aria-valuemin="0" aria-valuemax="6983" aria-valuenow="0">
+      <div class="timeline__blocks" id="blocks"></div>
+      <div class="timeline__pins" id="pins"></div>
+      <div class="timeline__head" id="head"></div>
+    </div>
+    <div class="timeline__scale" aria-hidden="true"><span>0:00</span><span>0:30</span><span>1:00</span><span>1:30</span><span>end</span></div>
+
+    <div class="now" id="now" aria-live="polite"></div>
+
+    <p class="keys"><kbd>←</kbd> <kbd>→</kbd> step between moments · <kbd>space</kbd> play / pause · <kbd>J</kbd> <kbd>L</kbd> ±10 s</p>
+  </section>
+
+  <section class="guide" aria-label="Annotated moments">
+    <ol class="moments" id="moments"></ol>
+  </section>
+</main>
+
+<article class="essay">
+
+  <section id="who">
+    <h2>Telling them apart</h2>
+    <p class="essay__intro">The film cuts between several cameras, so left and right swap from shot to shot. Use what they are wearing, not where they stand.</p>
+    <div class="idgrid">
+      <figure class="id id--thomas">
+        <div class="id__img id__img--thomas" role="img" aria-label="A DJ in a grey baseball cap and glasses, headphones over the cap, reaching across a mixer with both hands."></div>
+        <figcaption>
+          <h3><span class="dot dot--thomas"></span>Thomas Bangalter</h3>
+          <ul>
+            <li>Baseball cap, glasses, beard</li>
+            <li>Headphones worn over the cap</li>
+            <li>Black T-shirt with a small white logo on the chest</li>
+          </ul>
+        </figcaption>
+      </figure>
+      <figure class="id id--fred">
+        <div class="id__img id__img--fred" role="img" aria-label="A DJ with short dark hair and no hat, headphones on, wearing a black T-shirt with white print across the chest."></div>
+        <figcaption>
+          <h3><span class="dot dot--fred"></span>Fred again..</h3>
+          <ul>
+            <li>No hat, short dark hair</li>
+            <li>Headphones on a bare head or round his neck</li>
+            <li>Tour T-shirt: large white print on the chest, “again” and a list of months down the sleeve</li>
+          </ul>
+        </figcaption>
+      </figure>
+    </div>
+    <p class="fine">Which is which is taken from the clothing: the shirt with “again” on the sleeve is the tour’s own. That is a contextual read from four public stills of the video, not a confirmed identification. If you know them by sight and it is the other way round, every colour on this page flips.</p>
+  </section>
+
+  <section id="method">
+    <h2>How to read who is doing what</h2>
+    <p class="essay__intro">Sound is continuous in the film but the picture is not, so you will never see every move. These are the tells that work when the camera is on the booth, strongest first.</p>
+    <ol class="tells">
+      <li>
+        <h3>The drum machine is Thomas</h3>
+        <p>Fred says a drum machine was synced to the decks and Thomas played it all night. Any percussion or synth sound that is not part of the record is him. If he is bent over a box that is neither a deck nor the mixer, that is what he is doing.</p>
+        <span class="tag tag--stated">From Fred’s notes</span>
+      </li>
+      <li>
+        <h3>One headphone cup on an ear</h3>
+        <p>The person listening in headphones is lining up the next track, which makes the next transition theirs. Headphones round the neck means that person is not cueing.</p>
+        <span class="tag tag--general">General DJ practice</span>
+      </li>
+      <li>
+        <h3>A hand on a deck</h3>
+        <p>Nudging a platter, moving the tempo slider, pressing cue or play, or scrolling the deck’s screen to pick a track. Whoever does that owns whatever comes out of that deck next.</p>
+        <span class="tag tag--general">General DJ practice</span>
+      </li>
+      <li>
+        <h3>Two hands on the mixer during a change</h3>
+        <p>In a blend, one hand takes the bass out of the outgoing channel while the other brings the incoming channel up. The person doing that is performing the transition, even if the other one chose the record.</p>
+        <span class="tag tag--general">General DJ practice</span>
+      </li>
+      <li>
+        <h3>Hands off, looking up</h3>
+        <p>Arms in the air, laughing, or looking at the crowd means it is the other person’s move. Fred’s notes describe him looking out at the crowd at 36:04 and being surprised by a file name at 41:15.</p>
+        <span class="tag tag--general">General DJ practice</span>
+      </li>
+    </ol>
+
+    <div class="callout">
+      <h3>The catch: many of the “blends” are single files</h3>
+      <p>Fred writes that the two of them spent the week in a London studio and arrived with “a usb stacked with ideas”. About twenty Technologic mash-ups were made in advance. One deck showed a file called “revolution yeah”. The Billie and Digital Love mash-up was filmed in the studio that afternoon.</p>
+      <p>So when three records are playing at once, that does not mean someone is juggling three decks. Often one of them pressed play on a prepared file. The live decisions are which idea to pull, when, how to get in and out of it, and what Thomas adds on the drum machine. Fred also says some ideas were made “without each other hearing so it was still a surprise”, which is why his reactions are a useful tell.</p>
+    </div>
+  </section>
+
+  <section id="sources">
+    <h2>What this is based on</h2>
+    <div class="evidence">
+      <div>
+        <span class="tag tag--stated">Fred says so</span>
+        <p>Taken from Fred again..’s own timestamped notes on the set. I read them second-hand, as reposted by a listener in the comments of a Mixcloud rip of this video, so wording and times are only as accurate as that copy.</p>
+      </div>
+      <div>
+        <span class="tag tag--inferred">Inferred</span>
+        <p>Not stated outright. The reasoning is printed with the entry so you can disagree with it.</p>
+      </div>
+      <div>
+        <span class="tag tag--none">Not known yet</span>
+        <p>No source says, and nobody has checked the picture. Most track blocks are in this state. Owning a record is not treated as proof of playing it.</p>
+      </div>
+    </div>
+
+    <h3>Limits</h3>
+    <ul class="limits">
+      <li>The video could not be played or downloaded where this guide was built, so nothing here was checked against the picture or the sound. Hand positions, effects, EQ moves and which deck each track is on are all still open.</li>
+      <li>Timestamps are Fred’s. One entry (Les Amazones, about 1:16:48) has no time in his notes and uses an automatic detector’s estimate; it is marked “approx”.</li>
+      <li>Tempo and key figures are not given per track, because the only ones available are machine estimates.</li>
+      <li>Descriptions of how a blend works musically are reasoning from the tracklist, and say so.</li>
+    </ul>
+
+    <h3>Sources</h3>
+    <ul class="links">
+      <li><a href="https://www.youtube.com/watch?v=gfF8jzBVWvM" target="_blank" rel="noopener">The film, on Fred again..’s YouTube channel</a></li>
+      <li><a href="https://mixmag.net/feature/this-is-the-full-tracklist-from-fred-again-and-thomas-bangalters-b2b-at-alexandra-palace" target="_blank" rel="noopener">Mixmag: full tracklist and background</a> (track names, order, studio preparation)</li>
+      <li><a href="https://www.mixcloud.com/LDJM/fred-again-b2b-thomas-bangalter-at-usb002-alexandra-palace-london-uk-27-february-2026/" target="_blank" rel="noopener">Mixcloud rip by LDJM</a> (comments carry a copy of Fred’s timestamped notes)</li>
+      <li><a href="https://set79.com/tracklist/soundcloud.com/thisisharvit/fred-again-b2b-thomas" target="_blank" rel="noopener">set79 automatic tracklist</a> (used only for the one approximate time)</li>
+    </ul>
+  </section>
+</article>
+
+<footer class="foot">
+  <p>Unofficial fan guide. The video is embedded from YouTube and belongs to its owners.</p>
+</footer>
+
+<script src="assets/guide-data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
