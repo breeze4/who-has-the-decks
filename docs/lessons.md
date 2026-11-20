@@ -40,3 +40,15 @@
   fixed it.
 - **Lesson:** Install `ffmpeg-full` for this project. The script now uses it when present.
 - **Status:** new
+
+## 2026-11-20: A headless browser kept playing the set after the session ended
+
+- **Context:** The visual pass confirmed real playback of the embed with agent-browser, in a
+  headless Chrome on `localhost:8765`.
+- **What happened:** The session ended without closing that browser. Its daemon stayed alive with
+  no parent, and the YouTube embed kept playing the set aloud. The owner turned off their own
+  player and still heard the music.
+- **Lesson:** After a playback check, pause the player and close the browser
+  (`agent-browser close`). Before you end a session, confirm that no headless browser you started
+  is still running.
+- **Status:** new
