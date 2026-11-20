@@ -1,0 +1,4 @@
+# The film, its audio and anything cut from it stay local. Never commit them.
+media/
+node_modules/
+.DS_Store

@@ -25,6 +25,10 @@ against the picture or the sound yet**, so most track blocks are marked
 - `assets/guide-data.js` - every moment: time, tracks, who, evidence, notes. Edit this to correct or extend the guide.
 - `assets/app.js` - player sync, stepping, timeline
 - `assets/style.css` - styles
+- `scripts/` - download the film locally and cut frames for review (output goes to `media/`, which is git-ignored)
+- `sources/` - saved source text the guide is built from
+- `tests/smoke.js` - page logic checks against a stand-in player
+- `CLAUDE.md` - project state and next steps for Claude Code sessions
 
 No build step. Open `index.html` through any static server.
 
