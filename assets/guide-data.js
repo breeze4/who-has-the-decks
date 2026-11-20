@@ -435,10 +435,10 @@ window.GUIDE = {
       tracks: [
         ['Daft Punk', 'One More Time'],
         ['Fred again.. & SOAK', 'just stand there'],
-        ['', '“Femi” (as written in Fred’s notes)']
+        ['', '“Femi”: a reference to Femi Koleoso of Ezra Collective']
       ],
-      tech: ['Three-way layer', 'Reprise'],
-      body: 'The set ends where it started, with One More Time, this time against a slow Fred track.',
+      tech: ['Three-way layer', 'Reprise', 'Spoken word'],
+      body: 'The set ends where it started, with One More Time, this time against a slow Fred track. “Femi” in Fred’s notes is a reference to Femi Koleoso, drummer and leader of the London jazz band Ezra Collective. From 1:47:39 a recorded voice says “I want you to see me friend”, “we gon’ make it through” and “all these things we took for granted”. The recording these words come from is not identified.',
       why: 'Fred is the only one seen on the controls either side of the change (1:45:28, 1:45:55, 1:46:16), with Thomas beside him, hands down. The moment itself is too dark to read.'
     },
     {

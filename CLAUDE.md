@@ -95,7 +95,8 @@ Settled:
 Open (the film and notes cannot answer them):
 - 58:26: what form Fred's "list of teachers" takes. It is not spoken on the microphone: the
   owner heard only "Joy Orbison" from him there (2026-11-20).
-- "Femi" in the final block is unidentified.
+- 1:46:06 "Femi": the owner identified it as an Ezra Collective reference (Femi Koleoso). The
+  spoken lines from 1:47:39 are heard, but the recording they come from is not identified.
 - 3:16 and every layered block: one file or several channels. No screen or fader is legible.
 - Whether the "novation" knob unit at Thomas's end is the drum machine. No model is legible.
 
