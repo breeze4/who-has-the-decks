@@ -7,20 +7,26 @@ and effects explained. It has to be polished.
 
 ## Where this stands
 
-Draft 1 was built in a cloud session that could not play or download the video (YouTube refuses
-datacenter addresses). So:
+The visual and audio pass ran on 2026-11-20 on the owner's MacBook:
 
-- Nothing on the page has been checked against the picture or the sound.
-- 20 of 30 track blocks say "Not known yet". 6 are attributed by Fred's notes, 4 are inferred.
+- Every block start was reviewed in frames (1 fps scans, closer looks where a hand was visible),
+  and the key frames of each claim were checked a second time. Of 30 track blocks, 16 are
+  `seen`, 2 `stated`, 3 `inferred`, 9 unknown. The page counts these live.
+- The owner confirmed who is who: cap + glasses = Thomas, tour T-shirt = Fred.
 - `sources/fred-notes.txt` holds Fred's notes first-hand, from his pinned YouTube comment. All
-  times in `guide-data.js` match it (checked 2026-11-20).
-- The page logic passes `tests/smoke.js` against a stand-in player. Real playback of the embed
-  has never been confirmed.
-- GitHub Pages is on. It serves the `main` branch, root folder.
+  times in `guide-data.js` match it.
+- Block times were checked against the audio (`media/audio/`, spectral change). Les Amazones
+  moved to 4578 s (audio change), still marked approximate.
+- Real playback of the embed and arrow seeking were confirmed in a browser. `tests/smoke.js`
+  passes. GitHub Pages serves the `main` branch, root folder.
+- Frame review notes per segment are in `media/review/seg_NN.json` (git-ignored, local only).
 
-This session exists to do the visual and audio pass that draft 1 could not.
+Tools this needs on a Mac: `brew install yt-dlp ffmpeg ffmpeg-full` (ffmpeg-full has the
+`drawtext` filter that `scripts/sheets.sh` needs), librosa in a venv for audio, and Playwright
+installed with pnpm outside the repo for the smoke test
+(`NODE_PATH=<dir>/node_modules node tests/smoke.js`).
 
-## The job, in order
+## The job, as run (repeat it if the film or notes change)
 
 1. `brew install yt-dlp ffmpeg`, then `scripts/fetch.sh`. Puts the film, audio, description and
    top comments in `media/` (git-ignored; never commit any of it).
@@ -57,8 +63,14 @@ The owner is strict about not being told things that are not known. Keep it that
   evidence section of `index.html`.
 - Owning a record is not evidence of playing it.
 - The film cuts between cameras and to the crowd. If the booth is not on screen at a
-  transition, the answer stays "Not known yet". Do not fill gaps by guessing.
-- Left and right swap between cameras. Identify by clothing, never by position.
+  transition, the answer stays "Not known yet". Do not fill gaps by guessing. One exception, used
+  twice: when the change falls in a 10-15 s wide or dark shot and only one person works the
+  controls on both sides of it, the entry is `inferred`, with the frames either side in `why`.
+- Left and right swap between cameras. Identify by clothing, never by position. The tour
+  T-shirt is merchandise that crowd members wear too; check the face. From behind, both shirts
+  show a building print; Thomas has a small "Théâtre de la Ville" logo on the chest.
+- Fred spends long stretches on a hand-held microphone, often away from the decks. Do not count
+  him as playing then.
 - Many "blends" are single prepared files (Fred: about 20 Technologic mash-ups, a file called
   "revolution yeah", the Billie x Digital Love mash-up). Three tracks at once does not imply
   three decks. Say which case it is only when the frames show it.
@@ -67,16 +79,21 @@ The owner is strict about not being told things that are not known. Keep it that
   reasoning from the tracklist. Several draft-1 bodies say "on paper" for this reason; replace
   them once heard.
 
-## Things draft 1 guessed and should be checked
+## What the visual pass settled, and what stays open
 
-- 14:18: Fred says "this one, but played by Thomas" about a vocal. Draft 1 assumes it is the
-  Renegade Master acapella from tracklist order.
-- 40:00–41:45: assumed Thomas's deck because Fred was surprised by the file name.
-- 7:37 and 1:09:07: assumed Fred's from first-person wording and the brother's text.
-- 1:16:48 Les Amazones: time is an automatic detector's estimate.
-- 58:26: Fred "listed his teachers". Unknown whether that is a prepared vocal.
-- "Femi" in the final block is copied as written; unidentified.
-- Whether 3:16 (One More Time x Marea x Ain't No Mountain) is one file or a live layer.
+Settled:
+- 7:37 and 1:09:07: frames show both on the controls, not Fred alone (draft 1 guessed Fred).
+- 1:34:00 "Thomas playing (saying?)": Thomas is on a deck platter, not a microphone.
+- 1:52:40 "dad on the table": Thomas does stand on the booth top.
+- 53:18 "that face": the face on screen is Thomas's.
+
+Open (the film and notes cannot answer them):
+- 14:18: which vocal is "played by Thomas". Tracklist order suggests Renegade Master.
+- 40:00-41:45: still inferred as Thomas's file; the change is in wide shots.
+- 58:26: whether Fred's microphone moment at 59:11 is the list of teachers.
+- "Femi" in the final block is unidentified.
+- 3:16 and every layered block: one file or several channels. No screen or fader is legible.
+- Whether the "novation" knob unit at Thomas's end is the drum machine. No model is legible.
 
 ## Files
 

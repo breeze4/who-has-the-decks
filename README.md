@@ -6,18 +6,21 @@ An annotated, timestamped guide to the Fred again.. b2b Thomas Bangalter set
 through the set moment by moment: what is playing, how it was put together,
 and which of the two is doing it.
 
-## Status
+## How attributions work
 
-Draft 1. Attributions come from Fred again..'s own timestamped notes and from
-reasoning that is printed next to each entry. **Nothing has been checked
-against the picture or the sound yet**, so most track blocks are marked
-"Not known yet". Each entry carries an evidence level:
+Each entry carries an evidence level, and the page states each claim only as
+strongly as its evidence:
 
 | Level | Meaning |
 | --- | --- |
-| Fred says so | Stated in Fred's notes (read second-hand, see Sources on the page) |
-| Inferred | Not stated; the reasoning is shown |
-| No source | Nobody says, and the film has not been reviewed |
+| Seen in the film | Read from frames of the film; the entry gives the frame times |
+| Fred says so | Stated in Fred again..'s timestamped notes, pinned under the film |
+| Inferred | Not seen or stated outright; the reasoning is shown |
+| No source | Nobody says, and the frames don't show it |
+
+When a track change falls in a wide, crowd, or dark shot, the entry stays
+"Not known yet" or "Inferred", even if the surrounding frames suggest an
+answer.
 
 ## Files
 
