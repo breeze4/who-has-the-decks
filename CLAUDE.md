@@ -96,7 +96,9 @@ Open (the film and notes cannot answer them):
 - 58:26: what form Fred's "list of teachers" takes. It is not spoken on the microphone: the
   owner heard only "Joy Orbison" from him there (2026-11-20).
 - 1:46:06 "Femi": the owner identified it as an Ezra Collective reference (Femi Koleoso). The
-  spoken lines from 1:47:39 are heard, but the recording they come from is not identified.
+  likely Femi part is the crowd speech from 1:51:02 ("London, how you feeling?"), after an
+  Ezra Collective shout-out at 1:50:03. The film never shows the speaker, so it stays reasoning.
+  A machine transcript (mlx-whisper, large-v3-turbo) of 1:46-1:53 was used to find the lines.
 - 3:16 and every layered block: one file or several channels. No screen or fader is legible.
 - Whether the "novation" knob unit at Thomas's end is the drum machine. No model is legible.
 

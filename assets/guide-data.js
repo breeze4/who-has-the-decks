@@ -438,7 +438,7 @@ window.GUIDE = {
         ['', '“Femi”: a reference to Femi Koleoso of Ezra Collective']
       ],
       tech: ['Three-way layer', 'Reprise', 'Spoken word'],
-      body: 'The set ends where it started, with One More Time, this time against a slow Fred track. “Femi” in Fred’s notes is a reference to Femi Koleoso, drummer and leader of the London jazz band Ezra Collective. From 1:47:39 a recorded voice says “I want you to see me friend”, “we gon’ make it through” and “all these things we took for granted”. The recording these words come from is not identified.',
+      body: 'The set ends where it started, with One More Time, this time against a slow Fred track. “Femi” in Fred’s notes is a reference to Femi Koleoso, drummer and leader of the London jazz band Ezra Collective. At 1:50:03 someone on the microphone asks the crowd to give it up for several acts, Ezra Collective among them. From 1:51:02 to about 1:51:50 a man talks to the crowd over the music: “London, how you feeling?”, then asks them not to lose “this feeling of gratitude”, of “inclusivity and safety” and “of belonging”. The film never shows the speaker. That he is Femi is reasoning from Fred’s note and the Ezra Collective shout-out just before; no frame or source confirms it.',
       why: 'Fred is the only one seen on the controls either side of the change (1:45:28, 1:45:55, 1:46:16), with Thomas beside him, hands down. The moment itself is too dark to read.'
     },
     {
