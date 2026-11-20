@@ -10,8 +10,8 @@ and effects explained. It has to be polished.
 The visual and audio pass ran on 2026-11-20 on the owner's MacBook:
 
 - Every block start was reviewed in frames (1 fps scans, closer looks where a hand was visible),
-  and the key frames of each claim were checked a second time. Of 30 track blocks, 16 are
-  `seen`, 2 `stated`, 3 `inferred`, 9 unknown. The page counts these live.
+  and the key frames of each claim were checked a second time. Of 30 track blocks, 17 are
+  `seen`, 2 `stated`, 2 `inferred`, 9 unknown. The page counts these live.
 - The owner confirmed who is who: cap + glasses = Thomas, tour T-shirt = Fred.
 - `sources/fred-notes.txt` holds Fred's notes first-hand, from his pinned YouTube comment. All
   times in `guide-data.js` match it.
@@ -88,9 +88,11 @@ Settled:
 - 53:18 "that face": the face on screen is Thomas's.
 - 14:18: the vocal "played by Thomas" is the Renegade Master acapella. The owner confirmed it by
   ear against the original record (2026-11-20).
+- 40:00 "revolution yeah": `seen`, Thomas. The owner watched the lead-up: Thomas does the work,
+  Fred smokes and drinks and touches one control at his own end. The start of the file itself
+  falls in dark shots.
 
 Open (the film and notes cannot answer them):
-- 40:00-41:45: still inferred as Thomas's file; the change is in wide shots.
 - 58:26: whether Fred's microphone moment at 59:11 is the list of teachers.
 - "Femi" in the final block is unidentified.
 - 3:16 and every layered block: one file or several channels. No screen or fader is legible.

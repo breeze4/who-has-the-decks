@@ -183,7 +183,7 @@ window.GUIDE = {
       quote: 'The drum machine was synced to the decks so for the whole set Thomas was making these mad sounds in the moment on it.'
     },
     {
-      t: 2400, kind: 'mix', who: 'thomas', evidence: 'inferred',
+      t: 2400, kind: 'mix', who: 'thomas', evidence: 'seen',
       title: 'Clubbed to Death, then the Revolution',
       tracks: [
         ['Rob Dougan', 'Clubbed to Death (Kurayamino Variation)'],
@@ -191,14 +191,14 @@ window.GUIDE = {
       ],
       tech: ['Pre-made edit', 'Spoken word over strings', 'Bass cut'],
       body: 'The Matrix-era strings piece under Gil Scott-Heron’s spoken word. In the audio, the bass of the outgoing track is cut at 39:10, the track fades almost to silence by 40:00, and the new one comes in with full bass at about 40:05.',
-      why: 'Fred says he looked at the deck and was surprised by the file name (next entry). You are not surprised by a file you loaded yourself, so this was most likely Thomas’s. The frames neither confirm nor rule it out: the change is in wide or dark shots (39:50–40:13), and at 40:17 Thomas is on the mixer while Fred reaches to the deck at his own end.'
+      why: 'Seen: Thomas does the work through the lead-up and after the change. He is on the mixer at 39:45 and on the mixer in headphones at 40:15. Fred smokes and drinks through the lead-up; his only touches are one control at his own end (39:45) and a reach to his own deck with a cigarette in hand (40:15). The change itself, at about 40:05, falls in wide and dark shots (39:50–40:13), so the moment the file starts is not on screen.'
     },
     {
       t: 2475, kind: 'note', who: 'thomas', evidence: 'inferred',
       title: 'A file called “revolution yeah”',
       tech: ['Pre-made edit'],
       body: 'The file name gives the next move away: the “yeah” is Usher. That also means the Revolution-into-Yeah! switch is baked into one prepared file, not performed as a live transition.',
-      why: 'Fred did not know what the “yeah” meant, so he had not heard this one. He said earlier that some ideas were made “without each other hearing so it was still a surprise”. No frame shows Fred looking at a deck screen, and no screen is legible.',
+      why: 'Fred did not know what the “yeah” meant, so he had not heard this one. He said earlier that some ideas were made “without each other hearing so it was still a surprise”. Thomas is the one working the controls when the file comes in (40:00 entry). No frame shows Fred looking at a deck screen, and no screen is legible.',
       quote: 'I remember I looked down at the decks and saw the track was called ‘revolution yeah’. I thought I wonder what the ‘yeah’ means….'
     },
     {
@@ -207,7 +207,7 @@ window.GUIDE = {
       tracks: [['Usher ft. Lil Jon & Ludacris', 'Yeah!']],
       tech: ['Surprise drop'],
       body: 'The payoff of the file name. A 2004 R&B hit dropped out of a political spoken-word piece. Both of them are on the controls when it lands, and both laugh.',
-      why: 'Seen: both have a hand on the controls at 41:40–41:48, neither cueing; both laugh at 41:50–41:59. The frames do not show who started the file; the “revolution yeah” note suggests it was Thomas’s.'
+      why: 'Seen: both have a hand on the controls at 41:40–41:48, neither cueing; both laugh at 41:50–41:59. Thomas runs the controls when the file comes in (40:00 entry).'
     },
     {
       t: 2629, kind: 'mix', who: 'both', evidence: 'seen',
