@@ -93,7 +93,8 @@ Settled:
   falls in dark shots.
 
 Open (the film and notes cannot answer them):
-- 58:26: whether Fred's microphone moment at 59:11 is the list of teachers.
+- 58:26: what form Fred's "list of teachers" takes. It is not spoken on the microphone: the
+  owner heard only "Joy Orbison" from him there (2026-11-20).
 - "Femi" in the final block is unidentified.
 - 3:16 and every layered block: one file or several channels. No screen or fader is legible.
 - Whether the "novation" knob unit at Thomas's end is the drum machine. No model is legible.

@@ -286,8 +286,8 @@ window.GUIDE = {
       t: 3506, kind: 'note', who: 'fred', evidence: 'stated',
       title: 'Fred lists his own teachers',
       tech: ['Custom version'],
-      body: 'On the original record Daft Punk name the producers who taught them. Fred says he did the same here. In the film he stays at the decks, and at 59:11 he speaks or sings into the microphone while Thomas cues.',
-      why: 'Stated by Fred: “it only made sense for me to do the same”. Seen: Fred with the microphone at 59:11–59:18. The frames cannot show whether that vocal is the list of teachers.',
+      body: 'On the original record Daft Punk name the producers who taught them. Fred says he did the same here. In the film he stays at the decks, and at 59:11 he speaks into the microphone while Thomas cues. The only name he says into the microphone in this stretch is “Joy Orbison”, whose “flight fm” is playing. So the list is not a spoken roll-call on the microphone; what form his list takes is not known.',
+      why: 'Stated by Fred: “it only made sense for me to do the same”. Seen: Fred with the microphone at 59:11–59:18. Heard: “Joy Orbison” is the only name he says into it from 58:26 to about 59:30.',
       quote: 'Daft punk listed all their teachers, so it only made sense for me to do the same.'
     },
     {
